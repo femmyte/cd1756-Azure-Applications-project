@@ -1,7 +1,7 @@
 alembic
 azure-common
 azure-nspkg
-azure-storage
+azure-storage==0.36.0
 certifi
 cffi
 chardet
@@ -29,5 +29,6 @@ setuptools
 six
 SQLAlchemy
 urllib3
-Werkzeu
+Werkzeug
 WTForms
+python-dotenv
