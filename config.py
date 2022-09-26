@@ -8,7 +8,7 @@ class Config(object):
     SECRET_KEY = os.environ.get('SECRET_KEY') or 'secret-key'
 
     BLOB_ACCOUNT = os.environ.get('BLOB_ACCOUNT') or 'femmytestorage'
-    BLOB_STORAGE_KEY = os.environ.get('BLOB_STORAGE_KEY') or 'vcN6WlpUfx3x5zGlU/87h9qDEOs++rjjcWa83mMFL57QZrwvydqkPUf59i6wx25tRNxgAdkPvaed+AStxrhmAQ=='
+    BLOB_STORAGE_KEY = os.environ.get('BLOB_STORAGE_KEY') or 'ukm+NqVRNdRCS0H84Ide3AIXRaI9sZI/fxf4Au+PHmkVCjBJQxX2JnyRjhQ+aWHDb3zM6rj1ZbdY+AStjilwiA=='
     BLOB_CONTAINER = os.environ.get('BLOB_CONTAINER') or 'images'
 
     SQL_SERVER = os.environ.get('SQL_SERVER') or 'femmyte-server.database.windows.net'
@@ -32,7 +32,7 @@ class Config(object):
     AUTHORITY = "https://login.microsoftonline.com/common"  # For multi-tenant app, else put tenant name
     # AUTHORITY = "https://login.microsoftonline.com/Enter_the_Tenant_Name_Here"
 
-    CLIENT_ID = "05b4c6c8-1e54-4791-9fca-2af99cd52bee"
+    CLIENT_ID = "47f584e3-1f49-4d16-8ceb-b907a4a9b442"
 
     REDIRECT_PATH = "/getAToken"  # Used to form an absolute URL; must match to app's redirect_uri set in AAD
 
