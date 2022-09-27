@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'Femmyte-app'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_E5C99A83E08F48B197A7B1DD4E6FCA3D }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_C8DE6D9F563D4B11AD4AFE39004D54A8 }}
